@@ -1,0 +1,48 @@
+.buscador {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.buscador select {
+  margin: 1rem;
+  padding: 0.3rem;
+  color: black;
+  font-size: large;
+  border-radius: 3px;
+}
+
+.buscador select option {
+  color: black;
+  font-size: large;
+}
+
+.name-buscador {
+  margin: 1rem;
+  padding: 0.3rem;
+  color: black;
+  font-size: large;
+  border-radius: 3px;
+}
+
+.resultados-h2 {
+  margin-left: 1rem;
+  
+}
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-submit-search {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.5rem;
+}
+
+h4.sin-resultados{
+  margin: auto;
+}
