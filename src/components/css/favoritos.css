@@ -1,0 +1,42 @@
+.favorito {
+  color: aliceblue;
+  background-color: black;
+  opacity: 0.6em;
+  padding: 0.3rem;
+  border-radius: 3px;
+}
+
+summary {
+  margin-left: 20%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+summary :hover {
+  opacity: 0.6;
+}
+
+details ul {
+
+  margin: 1rem 2rem;
+  background-color: black;
+  opacity: 0.8;
+  padding: 0.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  border-radius: 3px;
+}
+
+details li {
+  margin: 1% 8%;
+
+  font-weight: 500;
+}
+
+.button-eliminar {
+  color: black;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}

@@ -1,0 +1,27 @@
+nav {
+  background-color: beige;
+  height: 5.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+nav ul li {
+  margin: 1rem;
+}
+
+img.foto-logo {
+  width: 5rem;
+  background-color: beige;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+nav ul li h3 {
+  color: black;
+}
