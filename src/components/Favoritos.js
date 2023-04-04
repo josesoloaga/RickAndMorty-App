@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import "./css/favoritos.css";
 
 export const Favoritos = () => {

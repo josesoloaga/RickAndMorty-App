@@ -1,21 +1,20 @@
 import "./App.css";
-import { useState } from "react";
 import { Portada } from "./components/Portada";
 import { Buscador } from "./components/Buscador";
 import { Nav } from "./components/Nav";
 import { Spinner } from "./components/Spinner";
+import {Route, Routes } from "react-router-dom";
 
 function App() {
-  const [nextPage, setNextPage] = useState("portada");
-
   return (
     <div className="App">
-      <Nav setNextPage={setNextPage} />
-      {nextPage === "portada" ? (
-        <Portada nextPage={nextPage} setNextPage={setNextPage} />
-      ) : (
-        <Buscador setNextPage={setNextPage} />
-      )}
+      <Nav />
+
+        <Routes>
+          <Route path="/" element={<Portada />}></Route>
+          <Route path="/search" element={<Buscador />}></Route>
+        </Routes>
+
       <Spinner />
     </div>
   );
